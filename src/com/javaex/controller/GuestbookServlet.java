@@ -31,7 +31,7 @@ public class GuestbookServlet extends HttpServlet {
 
 		if ("add".equals(actionName)) {
 
-			System.out.println("add항목 들어왔음");
+			System.out.println("add항목 들어왔음");;
 
 			String name = request.getParameter("name");
 			String pass = request.getParameter("pass");
